@@ -18,16 +18,16 @@ const Navbar = () => {
               className="cursor-pointer w-auto h-auto"
             />
           </Link>
-          <Link href="/" className="text-gray-800 text-lg font-semibold hover:text-gray-600">
+          <Link href="/" className="text-gray-800 text-xl font-normal hover:text-[#3D65FF]">
             Home
           </Link>
-          <Link href="/about" className="text-gray-800 text-lg font-semibold hover:text-gray-600">
+          <Link href="/about" className="text-gray-800 text-xl font-normal hover:text-[#3D65FF]">
             About
           </Link>
           {/* Pages with Dropdown */}
           <div className="relative group">
             <button className="flex items-center text-gray-800 hover:text-gray-600 focus:outline-none">
-              <span className='text-lg font-semibold'>Pages</span>
+              <span className='text-xl font-normal hover:text-[#3D65FF]'>Pages</span>
               <svg
                 className="ml-1 w-4 h-4 transform transition-transform duration-300 group-hover:rotate-180"
                 viewBox="0 0 20 20"
@@ -37,7 +37,7 @@ const Navbar = () => {
               </svg>
             </button>
             {/* Dropdown Box */}
-            <div className="absolute left-0 mt-2 w-96 bg-white shadow-lg border border-gray-200 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300 z-10">
+            <div className="absolute left-0 mt-2 w-[36rem] bg-white shadow-lg border rounded-lg border-gray-300 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300 z-10">
               <div className="grid grid-cols-4 gap-4 p-4">
                 {/* Column 1 */}
                 <div className="space-y-2">

@@ -4,8 +4,9 @@ import Image from "next/image";
 function Home1() {
   const radientBg = `3D65FF`;
   return (
-    <div className="flex flex-col">
-      <div className="absolute top-0 right-0 w-[46%] h-[94%] z-10 ">
+    <div className="flex flex-col max-h-[55rem]">
+      <div className="relative overflow-hidden w-[44vw] "> </div>
+      <div className="absolute top-0 right-0 w-[44vw] h-[90vh] z-10 ">
         <Image
           src="/Backgrounds/background.png"
           alt="Right Background"
@@ -13,7 +14,7 @@ function Home1() {
           className="object-cover rounded-br-3xl"
         />
       </div>
-      <div className="absolute top-32 right-32 z-10">
+      <div className="absolute top-28 right-20 z-10">
         <Image
           src="/Backgrounds/bg3.svg"
           alt="Right Background"

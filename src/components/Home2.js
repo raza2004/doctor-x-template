@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Home2() {
   return (
-    <div className="flex flex-row h-auto ml-6 bg-[#F3F8FF] w-[87vw] rounded-3xl p-12 mb-11">
+    <div className="flex flex-row h-auto ml-[4%] bg-[#F3F8FF] w-[87vw] rounded-3xl p-16 mb-11">
       {/* Left Section: Booking Information */}
       <div className="flex flex-col justify-center h-[25rem] space-y-4 ml-5 w-[26vw]">
         <div className="text-xl font-normal text-[#3D65FF]">

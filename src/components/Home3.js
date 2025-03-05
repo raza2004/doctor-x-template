@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-between px-6 sm:px-14 py-12 space-y-10 md:space-y-0">
+    <div className="flex flex-col ml-[3%] p-3 sm:flex-row items-center justify-between px-6 sm:px-14 py-12 space-y-10 md:space-y-0">
       
       {/* Left Section: Background Images */}
       <div className="relative w-full sm:w-[507px] h-[200px] sm:h-[479px]">
@@ -72,7 +72,13 @@ const AboutSection = () => {
         </div>
 
         {/* Book Appointment Button */}
-        <button className="mt-6 lg:mt-10 text-white py-3 px-6 bg-[#3D65FF] flex flex-row gap-1 items-center text-xl font-semibold rounded-full hover:bg-[#13182f] ">
+        <button className="mt-6 lg:mt-10 text-white py-5 w-64 px-4 bg-[#3D65FF] flex flex-row gap-1 items-center text-xl font-semibold rounded-full hover:bg-[#13182f] ">
+          <Image
+                        src="/Icons/phone.svg"
+                        alt="phone"
+                        width={24}
+                        height={24}
+                      />{" "}
           Book Appointment
         </button>
 

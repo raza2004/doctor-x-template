@@ -3,10 +3,11 @@ import Navbar from '@/components/Navbar';
 import Home1 from '@/components/Home1';
 import Home2 from '@/components/Home2';
 import Home3 from '@/components/Home3';
+import FeatureCarousel from '@/components/Home4';
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col gap-8 h-screen p-3">
+    <div className="flex flex-col gap-8 h-screen ">
       {/* Render Navbar (which overlays the background image thanks to its z-index) */}
       <Navbar />
       
@@ -21,6 +22,9 @@ const HomePage = () => {
       </div>
       <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
         <Home3 />
+      </div>
+      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <FeatureCarousel/>
       </div>
     </div>
   );

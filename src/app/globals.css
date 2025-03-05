@@ -14,9 +14,14 @@
   }
 }
 
+.padding-reset {
+  padding: 0 !important; /* add !important to override global padding */
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
-  margin-left: 03%;
+  /* margin-left: 03%; */
   font-family: Arial, Helvetica, sans-serif;
 }

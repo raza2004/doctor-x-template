@@ -4,7 +4,7 @@ import Image from "next/image";
 function Home1() {
   const radientBg = `3D65FF`;
   return (
-    <div className="flex flex-col max-h-[55rem]">
+    <div className="flex flex-col max-h-[55rem] ml-[3%] p-3">
       <div className="relative overflow-hidden w-[44vw] "> </div>
       <div className="absolute top-0 right-0 w-[44vw] h-[90vh] z-10 ">
         <Image

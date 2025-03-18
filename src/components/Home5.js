@@ -18,7 +18,7 @@ const Home5 = () => {
       <div className="w-full flex flex-col sm:flex-row items-center sm:items-start mt-10 sm:mt-16">
         
         {/* Left Side (Image + Video Overlay) */}
-        <div className="relative w-full sm:w-1/2 h-[100vh] flex justify-center">
+        <div className="relative w-full sm:w-1/2 h-[70vh] flex justify-center">
           <div className="relative mt-28 w-[320px] h-[320px] sm:w-[50vw] sm:h-[400px]">
             <Image
               src="/Backgrounds/bg3.png"
@@ -30,7 +30,7 @@ const Home5 = () => {
           </div>
           
           {/* Video Box Overlay */}
-          <div className='absolute  top-10 left-48 flex items-center justify-center w-[18vw] h-[100px] sm:w-[30vw] sm:h-[62%] bg-gray-200 rounded-lg shadow-lg '>
+          <div className='absolute  top-10 left-48 flex items-center justify-center w-[18vw] h-[100px] sm:w-[30vw] sm:h-[62%] bg-gray-200 rounded-3xl shadow-lg '>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
@@ -49,7 +49,7 @@ const Home5 = () => {
             { icon: FaClock, title: "24/7 nurse staff", text: "Lorem ipsum dolor sit amet consectetur sit dignissim pellentesque egestas." },
           ].map((feature, index) => (
             <div key={index} className="flex items-start ">
-              <feature.icon className="text-blue-600 text-3xl sm:text-5xl mr-4" />
+              <feature.icon className="text-blue-900 sm:mt-3 text-3xl sm:text-5xl mr-4 justify-center items-center text-center" />
               <div>
                 <h3 className="text-lg sm:text-3xl font-semibold">{feature.title}</h3>
                 <p className="text-gray-500 mt-1 w-[26vw]">{feature.text}</p>

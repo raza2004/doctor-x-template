@@ -5,6 +5,11 @@ import Home2 from '@/components/Home2';
 import Home3 from '@/components/Home3';
 import FeatureCarousel from '@/components/Home4';
 import Home5 from '@/components/Home5';
+import Home6 from '@/components/Home6';
+import Home7 from '@/components/Home7';
+import Home8 from '@/components/Home8';
+import Home9 from '@/components/Home9';
+import Footer from '@/components/Bottombar';
 
 const HomePage = () => {
   return (
@@ -30,6 +35,21 @@ const HomePage = () => {
       <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
       <Home5/>
       </div>
+      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <Home6/>
+      </div>
+      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <Home7/>
+      </div>
+      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <Home8/>
+      </div>
+      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+        <Home9/>
+        </div>
+        <div className='flex-grow mt-48'>
+          <Footer/>
+        </div>
     </div>
   );
 };

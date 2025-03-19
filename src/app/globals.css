@@ -18,6 +18,13 @@
   padding: 0 !important; /* add !important to override global padding */
 }
 
+@media screen and (max-width: 640px) {
+  .margin-reset {
+    margin-left: 0 !important; /* add !important to override global padding */
+  }
+  
+}
+
 
 body {
   color: var(--foreground);

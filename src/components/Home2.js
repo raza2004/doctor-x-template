@@ -3,13 +3,13 @@ import Image from 'next/image';
 
 function Home2() {
   return (
-    <div className="flex flex-row h-auto ml-auto mr-auto bg-[#F3F8FF] w-[87vw] rounded-3xl p-16 mb-11">
+    <div className="flex sm:flex-row flex-col h-auto ml-auto mr-auto bg-[#F3F8FF] overflow-hidden w-[87vw] rounded-3xl sm:p-16 p-2 mb-1">
       {/* Left Section: Booking Information */}
-      <div className="flex flex-col justify-center h-[25rem] space-y-4 ml-5 w-[26vw]">
-        <div className="text-xl font-normal text-[#3D65FF]">
+      <div className="flex flex-col justify-center sm:h-[25rem] sm:mt-0 mt-7 space-y-4 ml-5 sm:w-[26vw]">
+        <div className="text-xl font-semibold text-[#3D65FF]">
           BOOKING
         </div>
-        <div className="mt-4 text-5xl font-semibold leading-[1.2em]">
+        <div className="mt-4 sm:text-5xl text-3xl sm:font-semibold font-bold leading-[1.2em]">
           <p>Let us take care of your health</p>
         </div>
         <div className="mt-1 text-xl font-normal leading-[1.2em]">
@@ -20,7 +20,7 @@ function Home2() {
       </div>
 
       {/* Right Section: Two Divs in a Row */}
-      <div className="flex flex-row gap-8 h-[25rem] ml-12 w-[50vw] justify-center">
+      <div className="flex sm:flex-row flex-col gap-8 h-[25rem] ml-12 w-[50vw] justify-center">
         {/* First Div */}
         <div className="flex flex-col space-y-4 [20vw] p-6  rounded-2xl ">
           {/* Icon */}

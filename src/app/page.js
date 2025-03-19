@@ -23,7 +23,7 @@ const HomePage = () => {
       </div>
 
       {/* Home2 Component with additional gap if needed */}
-      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow mt-[47rem] sm:mt-12"> {/* Add more gap here if needed */}
         <Home2 />
       </div>
       <div className="flex-grow mt-12"> {/* Add more gap here if needed */}

@@ -45,9 +45,9 @@ const Footer = () => {
                 {/* Newsletter Signup */}
                 <div>
                     <h2 className="text-lg font-semibold mb-3">Sign up for our newsletter</h2>
-                    <div className="flex bg-white rounded-full overflow-hidden">
+                    <div className="flex bg-white rounded-full sm:w-[25vw] overflow-hidden">
                         <input type="email" className="p-3 flex-1 text-gray-700 outline-none" placeholder="Enter your email" />
-                        <button className="bg-blue-600 px-5 text-white font-semibold">Subscribe</button>
+                        <button className="bg-blue-600 px-4  text-white font-semibold">Subscribe</button>
                     </div>
                 </div>
             </div>

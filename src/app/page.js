@@ -23,31 +23,31 @@ const HomePage = () => {
       </div>
 
       {/* Home2 Component with additional gap if needed */}
-      <div className="flex-grow mt-[47rem] sm:mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow mt-[44rem] sm:mt-12"> {/* Add more gap here if needed */}
         <Home2 />
       </div>
-      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow mt-[0rem] sm:mt-12 "> {/* Add more gap here if needed */}
         <Home3 />
       </div>
-      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow mt-[27rem] sm:mt-12"> {/* Add more gap here if needed */}
       <FeatureCarousel/>
       </div>
       <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
       <Home5/>
       </div>
-      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow mt-[35rem] sm:mt-12"> {/* Add more gap here if needed */}
       <Home6/>
       </div>
       <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
       <Home7/>
       </div>
-      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow mt-[20rem] sm:mt-[14rem]"> {/* Add more gap here if needed */}
       <Home8/>
       </div>
-      <div className="flex-grow mt-12"> {/* Add more gap here if needed */}
+      <div className="flex-grow sm:mt-[22rem]"> {/* Add more gap here if needed */}
         <Home9/>
         </div>
-        <div className='flex-grow mt-48'>
+        <div className='flex-grow mt-[6rem] sm:mt-[20rem]'>
           <Footer/>
         </div>
     </div>

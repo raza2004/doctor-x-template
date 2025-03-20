@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Home2() {
   return (
-    <div className="flex sm:flex-row flex-col h-auto ml-auto mr-auto bg-[#F3F8FF] overflow-hidden w-[87vw] rounded-3xl sm:p-16 p-2 mb-1">
+    <div className="flex sm:flex-row flex-col h-auto ml-auto mr-auto bg-[#F3F8FF] overflow-hidden w-[87vw] rounded-3xl sm:p-16 p-2">
       {/* Left Section: Booking Information */}
       <div className="flex flex-col justify-center sm:h-[25rem] sm:mt-0 mt-7 space-y-4 ml-5 sm:w-[26vw]">
         <div className="text-xl font-semibold text-[#3D65FF]">
@@ -20,9 +20,9 @@ function Home2() {
       </div>
 
       {/* Right Section: Two Divs in a Row */}
-      <div className="flex sm:flex-row flex-col gap-8 h-[25rem] ml-12 w-[50vw] justify-center">
+      <div className="flex sm:flex-row flex-col gap-8 sm:h-[25rem] sm:ml-12 sm:w-[50vw] justify-center">
         {/* First Div */}
-        <div className="flex flex-col space-y-4 [20vw] p-6  rounded-2xl ">
+        <div className="flex flex-col space-y-4 sm:[20vw] p-6  rounded-2xl ">
           {/* Icon */}
           <div className="">
             <Image
@@ -39,7 +39,7 @@ function Home2() {
           </div>
           {/* Two Lines of Text */}
           <div className="text-lg ">
-            <p className='w-[22vw]'>680 47th St. San Francisco, CA 90011</p>
+            <p className='sm:w-[22vw]'>680 47th St. San Francisco, CA 90011</p>
             <p className='text-xl font-semibold mt-2 text-[#3D65FF]'>Open on Google Maps
 
 </p>
@@ -54,7 +54,7 @@ function Home2() {
         </div>
 
         {/* Second Div */}
-        <div className="flex flex-col space-y-4 [20vw] p-6">
+        <div className="flex flex-col space-y-4 sm:[20vw] p-6">
           {/* Icon */}
           <div className="text-4xl text-[#3D65FF]">
           <Image
